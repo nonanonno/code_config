@@ -1,0 +1,87 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl-p",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f",
+        "command": "defaultSettings.action.focusSearch",
+        "when": "defaultSettingsEditor"
+    },
+    {
+        "key": "alt+f",
+        "command": "actions.find",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "deleteAllRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.togglePanel",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.togglePanel"
+    }
+]
